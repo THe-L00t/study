@@ -1,6 +1,6 @@
 Jayce		3466		8307		452		73		mid
 Vayne		3318		2790		390		60		support
-Lee Sin		9864		6257		747		19		support
+LeeSin		9864		6257		747		19		support
 Teemo		1915		1313		700		68		mid
 Nami		2968		2153		803		74		support
 Jinx		2583		3042		123		53		jungle
@@ -15,7 +15,7 @@ Ezreal		3660		9835		274		44		mid
 Sona		5655		8442		252		26		bottom
 Lulu		3231		2014		503		32		support
 Amumu		6763		3994		427		19		jungle
-Master Yi		5737		7168		434		61		top
+MasterYi		5737		7168		434		61		top
 Jarvan		1895		3070		323		80		mid
 Shen		4794		9220		783		42		mid
 Fizz		9864		1913		433		38		bottom
