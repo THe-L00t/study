@@ -15,8 +15,8 @@ public:
 	size_t size();
 	size_t capacity();
 
-
 	void push_back(const cham&);
+	void selectionSort();
 
 	cham& operator[](int idx);
 

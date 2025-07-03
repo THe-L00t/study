@@ -9,6 +9,13 @@ public:
 	//¸â¹öÇÔ¼ö
 
 
+
+
+
+
+	bool operator<(const cham& other) const;
+	bool operator==(const cham& other) const;
+
 	friend std::istream& operator>>(std::istream& is, cham& c) {
 		return is >> c.name >> c.hp >> c.mp >> c.speed >> c.range >> c.pos;
 	}

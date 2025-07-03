@@ -30,5 +30,13 @@ int main() {
 	{
 		std::cout << cl[i];
 	}
+	std::cout << "Á¤·ÄÀü" << std::endl;
+
+	cl.selectionSort();
+
+	for (size_t i = 0; i < cl.size(); i++)
+	{
+		std::cout << cl[i];
+	}
 }
 
