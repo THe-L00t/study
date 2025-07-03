@@ -24,6 +24,9 @@
     <ClCompile Include="cham.cpp">
       <Filter>소스 파일\cham</Filter>
     </ClCompile>
+    <ClCompile Include="list.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="testdata.txt">
@@ -33,6 +36,9 @@
   <ItemGroup>
     <ClInclude Include="cham.h">
       <Filter>소스 파일\cham</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

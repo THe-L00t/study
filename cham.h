@@ -16,6 +16,7 @@ public:
 		std::print(os, "{:<11}{:<5}{:<5}{:<4}{:<3}{:<8}\n", c.name, c.hp, c.mp, c.speed, c.range, c.pos);
 		return os;
 	}
+
 private: 
 	//¸â¹öº¯¼ö
 	std::string name;
