@@ -33,7 +33,42 @@ void list::selectionSort()
 	}
 }
 
+void list::quickSort()
+{
+	quick(0, s-1);
+}
+
 cham& list::operator[](int idx)
 {
 	return data[idx];
+}
+
+void list::quick(const size_t& start, const size_t& end)
+{
+	if (start >= end || end > s) return ;
+	size_t low{ start + 1 }, high{ end };
+	cham& pivot{ data[start] };
+	while (not(low > high)) {
+		if (not (data[low] > pivot)) {
+			low++;
+		}
+
+		if (not (data[high] < pivot)) {
+			high--;
+		}
+
+		if ((data[low] > pivot) && (data[high] < pivot) && high > low) {
+			cham temp = data[low];
+			data[low] = data[high];
+			data[high] = temp;
+			
+		}
+	}
+	cham temp = pivot;
+	pivot = data[high];
+	data[high] = temp;
+
+	if(start not_eq high-1) quick(start, high - 1);
+	if(high+1 not_eq end)quick(high + 1, end);
+	return ;
 }

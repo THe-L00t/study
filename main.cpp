@@ -32,7 +32,7 @@ int main() {
 	}
 	std::cout << "Á¤·ÄÀü" << std::endl;
 
-	cl.selectionSort();
+	cl.quickSort();
 
 	for (size_t i = 0; i < cl.size(); i++)
 	{

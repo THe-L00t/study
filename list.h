@@ -17,6 +17,7 @@ public:
 
 	void push_back(const cham&);
 	void selectionSort();
+	void quickSort();
 
 	cham& operator[](int idx);
 
@@ -24,5 +25,7 @@ private:
 	cham* data{};
 	size_t s{};
 	size_t cap{};
+
+	void quick(const size_t&, const size_t&);
 };
 

@@ -14,6 +14,7 @@ public:
 
 
 	bool operator<(const cham& other) const;
+	bool operator>(const cham& other) const;
 	bool operator==(const cham& other) const;
 
 	friend std::istream& operator>>(std::istream& is, cham& c) {
