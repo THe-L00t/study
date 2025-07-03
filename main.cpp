@@ -19,15 +19,16 @@ int main() {
 	if (not in) return 20250702;
 
 	list cl(22);
-	cham chams[22];
+	cham temp;
+
 	int idx{ 0 };
-	while (in >> chams[idx++]);
-	std::cout << "Á¤·Ä Àü" << std::endl;
-	for (const cham c : chams) {
-		std::cout << c;
+	while (in >> temp) {
+		cl.push_back(temp);
 	}
-	//1		chams[0] > chams[5];
-	//2		chams[0].getHp() > chams[5].getHp();
-	// chams[0].compHp(chams[5]);
+
+	for (size_t i = 0; i < cl.size(); i++)
+	{
+		std::cout << cl[i];
+	}
 }
 
