@@ -9,8 +9,17 @@ struct Tnode {
 class Tree
 {
 public:
+	~Tree() {
+
+	}
+
+	void push_back(const cham&);
+	void print() const;
 
 private:
 	Tnode* root{ nullptr };
+
+	void inpush(Tnode*&, const cham&);
+	void inprint(Tnode*) const;
 };
 

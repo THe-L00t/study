@@ -13,6 +13,7 @@ new delete
 #include <fstream>
 #include "List.h"
 #include "Linkedlist.h"
+#include "Tree.h"
 #include "cham.h"
 
 int main() {
@@ -40,7 +41,16 @@ int main() {
 	//	std::cout << cl[i];
 	//}
 
-	Linkedlist chams;
+	/*Linkedlist chams;
+
+	cham temp;
+	while (in >> temp) {
+		chams.push_back(temp);
+	}
+
+	chams.print();*/
+
+	Tree chams;
 
 	cham temp;
 	while (in >> temp) {

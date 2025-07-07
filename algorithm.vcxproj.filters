@@ -40,7 +40,7 @@
       <Filter>소스 파일\Linkedlist</Filter>
     </ClCompile>
     <ClCompile Include="Tree.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Tree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -59,7 +59,7 @@
       <Filter>소스 파일\Linkedlist</Filter>
     </ClInclude>
     <ClInclude Include="Tree.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
