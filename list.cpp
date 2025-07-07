@@ -1,20 +1,20 @@
-#include "list.h"
+#include "List.h"
 
-size_t list::size() {
+size_t List::size() {
 	return s;
 }
 
-size_t list::capacity()
+size_t List::capacity()
 {
 	return cap;
 }
 
-void list::push_back(const cham& rhs)
+void List::push_back(const cham& rhs)
 {
 	memcpy(&data[s++], &rhs, sizeof(cham));
 }
 
-void list::selectionSort()
+void List::selectionSort()
 {
 	for (size_t i = 0; i < s; ++i)
 	{
@@ -33,17 +33,17 @@ void list::selectionSort()
 	}
 }
 
-void list::quickSort()
+void List::quickSort()
 {
 	quick(0, s-1);
 }
 
-cham& list::operator[](int idx)
+cham& List::operator[](int idx)
 {
 	return data[idx];
 }
 
-void list::quick(const size_t& start, const size_t& end)
+void List::quick(const size_t& start, const size_t& end)
 {
 	if (start >= end || end > s) return ;
 	size_t low{ start + 1 }, high{ end };

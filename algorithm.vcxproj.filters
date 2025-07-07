@@ -16,11 +16,14 @@
     <Filter Include="소스 파일\cham">
       <UniqueIdentifier>{022dbf40-0df2-4343-92d5-a88acd738f1b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\list">
-      <UniqueIdentifier>{39f80d8c-89f5-44a3-bfd0-cba2e3b1ff71}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Linkedlist">
       <UniqueIdentifier>{3423b673-770f-4e61-8988-e8bca9b1b716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Tree">
+      <UniqueIdentifier>{1a324b5c-4963-4848-a3d6-ff0dae7a9456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\List">
+      <UniqueIdentifier>{39f80d8c-89f5-44a3-bfd0-cba2e3b1ff71}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -30,8 +33,8 @@
     <ClCompile Include="cham.cpp">
       <Filter>소스 파일\cham</Filter>
     </ClCompile>
-    <ClCompile Include="list.cpp">
-      <Filter>소스 파일\list</Filter>
+    <ClCompile Include="List.cpp">
+      <Filter>소스 파일\List</Filter>
     </ClCompile>
     <ClCompile Include="Linkedlist.cpp">
       <Filter>소스 파일\Linkedlist</Filter>
@@ -46,8 +49,8 @@
     <ClInclude Include="cham.h">
       <Filter>소스 파일\cham</Filter>
     </ClInclude>
-    <ClInclude Include="list.h">
-      <Filter>소스 파일\list</Filter>
+    <ClInclude Include="List.h">
+      <Filter>소스 파일\List</Filter>
     </ClInclude>
     <ClInclude Include="Linkedlist.h">
       <Filter>소스 파일\Linkedlist</Filter>

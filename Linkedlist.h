@@ -13,6 +13,10 @@ public:
 
 	}
 
+
+	void push_back(const cham&);
+
+	void print() const;
 private:
 	Lnode* head{ nullptr };
 	Lnode* tail{ nullptr };

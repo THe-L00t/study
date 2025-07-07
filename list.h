@@ -1,14 +1,14 @@
 #pragma once
 #include "cham.h"
-class list
+class List
 {
 public:
-	list() = default;
-	list(size_t c) 
+	List() = default;
+	List(size_t c) 
 		:cap{c} {
 		data = new cham[cap];
 	}
-	~list() {
+	~List() {
 		if (data not_eq nullptr) delete[] data;
 	}
 

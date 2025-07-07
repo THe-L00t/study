@@ -127,7 +127,7 @@
   <ItemGroup>
     <ClCompile Include="cham.cpp" />
     <ClCompile Include="Linkedlist.cpp" />
-    <ClCompile Include="list.cpp" />
+    <ClCompile Include="List.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -136,7 +136,7 @@
   <ItemGroup>
     <ClInclude Include="cham.h" />
     <ClInclude Include="Linkedlist.h" />
-    <ClInclude Include="list.h" />
+    <ClInclude Include="List.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
