@@ -70,5 +70,4 @@ void list::quick(const size_t& start, const size_t& end)
 
 	if(start not_eq high-1) quick(start, high - 1);
 	if(high+1 not_eq end)quick(high + 1, end);
-	return ;
 }
