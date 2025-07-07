@@ -39,6 +39,9 @@
     <ClCompile Include="Linkedlist.cpp">
       <Filter>소스 파일\Linkedlist</Filter>
     </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="testdata.txt">
@@ -54,6 +57,9 @@
     </ClInclude>
     <ClInclude Include="Linkedlist.h">
       <Filter>소스 파일\Linkedlist</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

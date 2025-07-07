@@ -129,6 +129,7 @@
     <ClCompile Include="Linkedlist.cpp" />
     <ClCompile Include="List.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="testdata.txt" />
@@ -137,6 +138,7 @@
     <ClInclude Include="cham.h" />
     <ClInclude Include="Linkedlist.h" />
     <ClInclude Include="List.h" />
+    <ClInclude Include="Tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

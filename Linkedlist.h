@@ -10,7 +10,15 @@ class Linkedlist
 {
 public:
 	~Linkedlist() {
-
+		if (head != nullptr) {
+			Lnode* temp{};
+			do {
+				temp = head->next;
+				delete head;
+				head = temp;
+			} while (temp != nullptr);
+			
+		}
 	}
 
 
