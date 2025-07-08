@@ -10,7 +10,10 @@ class Tree
 {
 public:
 	~Tree() {
-
+		if (root not_eq nullptr) {
+			destroy(root);
+			delete root;
+		}
 	}
 
 	void push_back(const cham&);
@@ -21,5 +24,6 @@ private:
 
 	void inpush(Tnode*&, const cham&);
 	void inprint(Tnode*) const;
+	void destroy(Tnode*&);
 };
 

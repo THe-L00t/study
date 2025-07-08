@@ -26,8 +26,24 @@ void Tree::inpush(Tnode*& n, const cham& c)
 
 void Tree::inprint(Tnode* n) const
 {
-
 	if(n->left != nullptr) inprint(n->left);
 	std::cout << n->data;
 	if(n->right != nullptr) inprint(n->right);
+}
+
+void Tree::destroy(Tnode*& n)
+{
+	if (n->left == nullptr && n->right == nullptr) {
+		return;
+	}
+
+	if (n->left not_eq nullptr) {
+		destroy(n->left);
+		delete n->left;
+	}
+	
+	if (n->right not_eq nullptr) {
+		destroy(n->right);
+		delete n->right;
+	}
 }
