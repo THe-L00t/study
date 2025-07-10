@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\List">
       <UniqueIdentifier>{39f80d8c-89f5-44a3-bfd0-cba2e3b1ff71}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Heap">
+      <UniqueIdentifier>{e3e47310-f7ba-48d0-b6ca-13084dd7a610}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -41,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="Tree.cpp">
       <Filter>소스 파일\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap.cpp">
+      <Filter>소스 파일\Heap</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +66,9 @@
     </ClInclude>
     <ClInclude Include="Tree.h">
       <Filter>소스 파일\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>소스 파일\Heap</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

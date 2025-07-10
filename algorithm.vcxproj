@@ -126,6 +126,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cham.cpp" />
+    <ClCompile Include="Heap.cpp" />
     <ClCompile Include="Linkedlist.cpp" />
     <ClCompile Include="List.cpp" />
     <ClCompile Include="main.cpp" />
@@ -136,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cham.h" />
+    <ClInclude Include="Heap.h" />
     <ClInclude Include="Linkedlist.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="Tree.h" />
