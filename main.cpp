@@ -3,56 +3,33 @@
 	- 배열
 	- 트리
 
-
 */
 #include <iostream>
 #include <fstream>
 #include "List.h"
 #include "Linkedlist.h"
 #include "Tree.h"
+#include "Heap.h"
 #include "cham.h"
 
 int main() {
 	std::ifstream in{ "testdata.txt" };
 	if (not in) return 20250702;
 
-	//List cl(22);
-	//cham temp;
-
-	//int idx{ 0 };
-	//while (in >> temp) {
-	//	cl.push_back(temp);
-	//}
-
-	//for (size_t i = 0; i < cl.size(); i++)
-	//{
-	//	std::cout << cl[i];
-	//}
-	//std::cout << "정렬전" << std::endl;
-
-	//cl.quickSort();
-
-	//for (size_t i = 0; i < cl.size(); i++)
-	//{
-	//	std::cout << cl[i];
-	//}
-
-	/*Linkedlist chams;
-
+	List l;
+	Heap h;
 	cham temp;
 	while (in >> temp) {
-		chams.push_back(temp);
+		h.push_back(temp);
 	}
-
-	chams.print();*/
-
-	Tree chams;
-
-	cham temp;
-	while (in >> temp) {
-		chams.push_back(temp);
+	int ls = h.size();
+	for (size_t i = 0; i < 22; i++)
+	{
+		l.push_back(h.outSort());
 	}
-
-	chams.print();
+	for (size_t i = 0; i < l.size(); i++)
+	{
+		std::cout << l[i];
+	}
 }
 

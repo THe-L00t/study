@@ -3,7 +3,9 @@
 class List
 {
 public:
-	List() = default;
+	List() {
+		data = new cham[cap];
+	}
 	List(size_t c) 
 		:cap{c} {
 		data = new cham[cap];
@@ -15,16 +17,16 @@ public:
 	size_t size();
 	size_t capacity();
 
-	void push_back(const cham&);
+	virtual void push_back(const cham&);
 	void selectionSort();
 	void quickSort();
 
 	cham& operator[](int idx);
 
-private:
+protected:
 	cham* data{};
 	size_t s{};
-	size_t cap{};
+	size_t cap{10};
 
 	void quick(const size_t&, const size_t&);
 };

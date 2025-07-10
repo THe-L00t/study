@@ -11,6 +11,13 @@ size_t List::capacity()
 
 void List::push_back(const cham& rhs)
 {
+	if (cap <= s) {
+		cap = cap*2;
+		cham* temp = new cham[cap];
+		memcpy(temp, data, sizeof(cham) * s);
+		delete[] data;
+		data = temp;
+	}
 	memcpy(&data[s++], &rhs, sizeof(cham));
 }
 
