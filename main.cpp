@@ -23,7 +23,7 @@ int main() {
 		h.push_back(temp);
 	}
 	int ls = h.size();
-	for (size_t i = 0; i < 22; i++)
+	for (size_t i = 0; i < ls; i++)
 	{
 		l.push_back(h.outSort());
 	}

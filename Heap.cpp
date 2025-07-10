@@ -26,7 +26,6 @@ const cham& Heap::outSort()
 		memcpy(&data[0], &temp, sizeof(cham));
 	}
 	s--;
-	dim = log2(s);
 	heap();
 	return data[s];
 }
@@ -40,14 +39,16 @@ void Heap::hCom(int n)
 			memcpy(&data[n], &data[(n - 1) / 2], sizeof(cham));
 			memcpy(&data[(n - 1) / 2], &temp, sizeof(cham));
 		}
+		else {}
 	}
-	else {
-		if (data[n] > data[n -2/ 2]) {
+	else if(n%2 == 0){
+		if (data[n] > data[(n -2)/ 2]) {
 			cham temp;
 			memcpy(&temp, &data[n], sizeof(cham));
 			memcpy(&data[n], &data[(n -2)/ 2], sizeof(cham));
 			memcpy(&data[(n -2)/ 2], &temp, sizeof(cham));
 		}
+		else {}
 	}
 }
 
